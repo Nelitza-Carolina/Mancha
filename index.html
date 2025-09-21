@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mancha - Recycled Streetwear & Art</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .accent-color {
+            color: #FF00FF; /* Beispiel-Akzentfarbe: Magenta */
+        }
+        .accent-bg {
+            background-color: #FF00FF;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row items-center justify-between pb-8">
+            <div class="flex items-center space-x-4">
+                <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight">MANCHA</h1>
+            </div>
+            <nav class="mt-4 md:mt-0">
+                <ul class="flex space-x-6 text-sm md:text-base font-semibold uppercase">
+                    <li><a href="#kollektion" class="hover:underline hover:text-gray-400 transition duration-300 ease-in-out">Kollektion</a></li>
+                    <li><a href="#about" class="hover:underline hover:text-gray-400 transition duration-300 ease-in-out">Über Uns</a></li>
+                    <li><a href="#kontakt" class="hover:underline hover:text-gray-400 transition duration-300 ease-in-out">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <main class="text-center py-16 md:py-32">
+            <div class="relative inline-block">
+                <!-- Logo mit SVG -->
+                 <p>Hier Bild vom Logo</p>
+                <svg viewBox="0 0 100 100" class="w-48 h-48 md:w-64 md:h-64 mx-auto mb-4 fill-white stroke-white stroke-2">
+                </svg>
+            </div>
+            <h2 class="text-3xl md:text-5xl font-bold mt-8 leading-tight">
+                Hier <span class="accent-color">Text 1</span>.
+                <br>
+                Hier <span class="accent-color">Text 2</span>.
+            </h2>
+            <p class="mt-4 text-sm md:text-lg text-gray-400">
+                Streetwear, Upcycling und einzigartige Kunstwerke, die deine Geschichte erzählen.
+            </p>
+            <a href="#kollektion" class="mt-8 inline-block px-8 py-4 border-2 border-white text-white uppercase font-bold text-sm md:text-base rounded-full hover:bg-white hover:text-black transition duration-300 ease-in-out">
+                Kollektion ansehen
+            </a>
+        </main>
+
+        <!-- Collection Preview Section -->
+        <section id="kollektion" class="py-16 md:py-24">
+            <h3 class="text-2xl md:text-4xl font-bold text-center mb-12">Unsere Kollektion</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <div class="h-64 bg-gray-700 flex items-center justify-center">
+                        <p class="text-gray-400">Bild des Artikels</p>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-lg mb-2">Artikelname</h4>
+                        <p class="text-gray-400 text-sm">Artikelbeschreibung</p>
+                        <p class="mt-4 text-lg font-semibold">0,99 €</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <div class="h-64 bg-gray-700 flex items-center justify-center">
+                        <p class="text-gray-400">Bild des Artikels</p>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-lg mb-2">Artikelname</h4>
+                        <p class="text-gray-400 text-sm">Artikelbeschreibung</p>
+                        <p class="mt-4 text-lg font-semibold">0,99 €</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+                    <div class="h-64 bg-gray-700 flex items-center justify-center">
+                        <p class="text-gray-400">Bild des Artikels</p>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-lg mb-2">Artikelname</h4>
+                        <p class="text-gray-400 text-sm">Artikelbeschreibung</p>
+                        <p class="mt-4 text-lg font-semibold">0,99 €</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 md:py-24 text-center">
+            <h3 class="text-2xl md:text-4xl font-bold mb-8">Über Mancha</h3>
+            <p class="max-w-3xl mx-auto text-gray-400 text-base md:text-lg leading-relaxed">
+                Mancha ist mehr als nur eine Modemarke. Wir sind ein Statement gegen Fast Fashion und für kreative Nachhaltigkeit. Wir transformieren alte Kleidungsstücke in einzigartige Streetwear-Teile und kreieren Kunst, die man tragen kann. Jedes Stück erzählt eine neue Geschichte.
+            </p>
+        </section>
+
+        <!-- Contact/Footer -->
+        <footer id="kontakt" class="py-12 border-t border-gray-800 text-center">
+            <h4 class="text-xl md:text-2xl font-bold mb-4">Bleib in Kontakt</h4>
+            <div class="flex justify-center space-x-6">
+                <!-- Beispiel-Social-Media-Icons -->
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Instagram</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">TikTok</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300 ease-in-out">Email</a>
+            </div>
+            <p class="mt-6 text-sm text-gray-600">&copy; 2024 Mancha. Alle Rechte vorbehalten.</p>
+        </footer>
+    </div>
+</body>
+</html>
